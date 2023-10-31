@@ -1,0 +1,19 @@
+
+/* ? Custom rules */
+[class^="col"]{
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #006cfa;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+[class^="col"] [class^="col"]{
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+}
