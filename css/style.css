@@ -1,7 +1,9 @@
+h2{
+    font-size: 1.2rem;
+}
 
-/* ? Custom rules */
 [class^="col"]{
-    height: 100px;
+    /* height: 50px; */
 
     display: flex;
     justify-content: center;
@@ -13,7 +15,26 @@
     padding: 1rem;
 }
 
+[class^="col"] .row{
+    width: 100%;
+    margin-bottom: 0;
+
+}
+
+.row{
+    margin-bottom: 1rem;
+}
+
+.alignment .row{
+    margin-bottom: 0;
+}
+
 [class^="col"] [class^="col"]{
+    /* height: 30px; */
     background-color: #00e165;
     border: 1px solid #006cfa;
+}
+
+.taller{
+    height: 100px;
 }

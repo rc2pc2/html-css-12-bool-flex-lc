@@ -10,6 +10,11 @@
     margin: 0 auto;
 }
 
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .row{
     display: flex;
     flex-direction: row;
@@ -135,6 +140,50 @@
 
 .col-offset-12{
     margin-left: calc((100% / 12) * 12);
+}
+
+
+/* ? Generic classes */
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-start{
+    justify-content: start;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+.align-start{
+    align-items: start;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: end;
+}
+
+.margin-bottom-1{
+    margin-bottom: 1rem;
 }
 
 /* ? Small size */
